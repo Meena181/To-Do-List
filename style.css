@@ -1,0 +1,149 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+h1{
+	width: 100vw;
+    height: 25px;
+    text-align: center;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: #e31010;
+    word-spacing: 3px;
+    margin-top: 5px;
+}
+.fa-list-alt{
+	color: #1230d6;
+    margin-right: 7px;
+}
+span{
+	color: #ffc107;
+}
+.color{
+	color: green;
+}
+.searchbox{
+	width: 70vw;
+    height: 30px;
+    background-color: #8080804a;
+    display: flex;
+    border-radius: 15px;
+	margin-left:200px;
+	
+}
+button{
+	margin-left: 12px;
+    background: transparent;
+    border: none;
+    color: silver;
+    cursor: pointer;
+}
+input{
+	background: transparent;
+    border: 0;
+    outline: none;
+    flex: 1;
+    padding: 5px 10px;
+    width: 70vw;
+    height: 30px;
+    border-radius: 14px;
+}
+::placeholder{
+	color:white;
+}
+.wrap{
+	display: flex;
+    width: 55vw;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.container{
+	display: flex;
+    height: 85vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+.column1{
+	height: 85vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.column2{
+	height: 85vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box{
+	width: 250px;
+    height: 130px;
+    border: 1px solid silver;
+    box-shadow: 3px 3px 8px 2px silver;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+	background-color:lightblue;
+}
+.box1{
+	margin-top: 40px;
+    margin-bottom: 30px;
+}
+.box5{
+	margin-top: 40px;
+    margin-bottom: 30px;
+}
+.box2,.box3, .box7, .box6{
+	margin-bottom:30px;
+}
+.box1> h6{
+    background-color: #c50808;
+	width:63px;
+}
+.box2> h6{
+	background-color: #caca09;
+    width: 95px;
+}
+.box3> h6{
+	width: 45px;
+    background-color: #0b9a0b;
+}
+.box4> h6{
+	width: 70px;
+    background-color: #0f2fdd;
+}
+.box5> h6{
+	width: 96px;
+    background-color: #c309e3;
+}
+.box6> h6{
+	width: 77px;
+    background-color: #df0d54
+}
+.box7> h6{
+	width: 60px;
+    background-color: #00bcd4;
+}
+	
+h6{
+	color: white;
+    font-size: 15px;
+    height: 24px;
+    border-radius: 5px;
+    line-height: 24px;
+    padding-left: 8px;
+	text-transform:uppercase;
+	cursor:pointer;
+}
+p{
+	font-size:11px;
+}
+.fa-plus{
+	font-size:20px;
+	cursor:pointer;
+}
